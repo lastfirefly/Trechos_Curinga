@@ -1,0 +1,5 @@
+# Renomear a coluna 'old_name' para 'new_name'
+df = df.rename(columns={'old_name': 'new_name'})
+
+# Renomear múltiplas colunas
+df = df.rename(columns={'old_name1': 'new_name1', 'old_name2': 'new_name2'})
