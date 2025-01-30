@@ -1,0 +1,11 @@
+import time
+
+#Print com reticencias
+def print_com_reticencias(mensagem, delay=0.5):
+    print(mensagem, end='', flush=True)
+    for _ in range(3):
+        time.sleep(delay)
+        print('.', end='', flush=True)
+    print()  # Nova linha após as reticências
+
+print_com_reticencias("Aguarde")
